@@ -80,14 +80,14 @@ export const config: Config = {
 		signature_secret: process.env.PN_ACT_CONFIG_DATASTORE_SIGNATURE_SECRET || ''
 	},
 	domains: {
-		api: (process.env.PN_ACT_CONFIG_DOMAINS_API || 'api.pretendo.cc').split(','),
-		assets: (process.env.PN_ACT_CONFIG_DOMAINS_ASSETS || 'assets.pretendo.cc').split(','),
-		cbvc: (process.env.PN_ACT_CONFIG_DOMAINS_CBVC || 'cbvc.cdn.pretendo.cc').split(','),
-		conntest: (process.env.PN_ACT_CONFIG_DOMAINS_CONNTEST || 'conntest.pretendo.cc').split(','),
-		datastore: (process.env.PN_ACT_CONFIG_DOMAINS_DATASTORE || 'datastore.pretendo.cc').split(','),
+		api: (process.env.PN_ACT_CONFIG_DOMAINS_API || 'api.brocatech.com').split(','),
+		assets: (process.env.PN_ACT_CONFIG_DOMAINS_ASSETS || 'assets.brocatech.com').split(','),
+		cbvc: (process.env.PN_ACT_CONFIG_DOMAINS_CBVC || 'cbvc.cdn.brocatech.com').split(','),
+		conntest: (process.env.PN_ACT_CONFIG_DOMAINS_CONNTEST || 'conntest.brocatech.com').split(','),
+		datastore: (process.env.PN_ACT_CONFIG_DOMAINS_DATASTORE || 'datastore.brocatech.com').split(','),
 		local_cdn: (process.env.PN_ACT_CONFIG_DOMAINS_LOCAL_CDN || '').split(','),
-		nasc: (process.env.PN_ACT_CONFIG_DOMAINS_NASC || 'nasc.pretendo.cc').split(','),
-		nnas: (process.env.PN_ACT_CONFIG_DOMAINS_NNAS || 'c.account.pretendo.cc,account.pretendo.cc').split(','),
+		nasc: (process.env.PN_ACT_CONFIG_DOMAINS_NASC || 'nasc.brocatech.com').split(','),
+		nnas: (process.env.PN_ACT_CONFIG_DOMAINS_NNAS || 'c.account.brocatech.com,account.brocatech.com').split(','),
 	}
 };
 
